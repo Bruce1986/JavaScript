@@ -33,7 +33,7 @@
 ## 2. Windows 環境注意事項 (Windows Environment Notes)
 
 ### 2.1. 命令列工具相容性 (CLI Tool Compatibility)
-*   **`rm` 指令**：在 Windows 中無法直接使用。請改用 `del <檔案名稱>` 刪除檔案，或 `rmdir /s /q <目錄名稱>` 刪除目錄。
+*   **`rm` 指令**：在 Windows 傳統的命令提示字元 (cmd.exe) 中無法直接使用。請改用 `del <檔案名稱>` 刪除檔案，或 `rmdir /s /q <目錄名稱>` 刪除目錄。請注意，若您使用 PowerShell，`rm` 則是 `Remove-Item` 的別名，可以直接使用。
 
 ### 2.2. 中文顯示問題 (Chinese Character Display Issues)
 在某些終端機環境下，中文字符可能顯示為亂碼，這通常與編碼設定有關。
